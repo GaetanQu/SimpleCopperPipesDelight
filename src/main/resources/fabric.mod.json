@@ -1,0 +1,39 @@
+{
+    "schemaVersion": 1,
+    "id": "simple-copper-pipes-delight",
+    "version": "${version}",
+    "name": "Simple Copper Pipe's Delight",
+    "description": "Water your rich soils farmlands with simple copper pipes!",
+    "authors": [
+        "Me (GaetanQu)"
+    ],
+    "contact": {
+        "sources": "https://github.com/GaetanQu/simple-copper-pipes-delight"
+    },
+    "license": "MIT",
+    "icon": "assets/simple-copper-pipes-delight/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.gaetanqu.scpdelight.SimpleCopperPipesDelight"
+        ],
+        "client": [
+            "com.gaetanqu.scpdelight.client.SimpleCopperPipesDelightClient"
+        ]
+    },
+    "mixins": [
+        "simple-copper-pipes-delight.mixins.json",
+        {
+            "config": "simple-copper-pipes-delight.client.mixins.json",
+            "environment": "client"
+        }
+    ],
+    "depends": {
+        "fabricloader": ">=0.18.4",
+        "minecraft": "~1.20.1",
+        "java": ">=17",
+        "fabric-api": "*",
+        "farmersdelight": "*",
+        "simplecopperpipes": "*"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "package": "com.gaetanqu.scpdelight.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "RichSoilFarmlandBlockMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    },
+    "overwrites": {
+        "requireAnnotations": true
+    }
+}
