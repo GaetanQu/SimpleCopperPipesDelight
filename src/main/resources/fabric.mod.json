@@ -8,7 +8,7 @@
         "Me (GaetanQu)"
     ],
     "contact": {
-        "sources": "https://github.com/GaetanQu/simple-copper-pipes-delight"
+        "sources": "https://github.com/GaetanQu/SimpleCopperPipesDelight"
     },
     "license": "MIT",
     "icon": "assets/simple-copper-pipes-delight/icon.png",
@@ -25,7 +25,7 @@
         "simple-copper-pipes-delight.mixins.json",
         {
             "config": "simple-copper-pipes-delight.client.mixins.json",
-            "environment": "client"
+            "environment": "*"
         }
     ],
     "depends": {
@@ -33,7 +33,7 @@
         "minecraft": "~1.20.1",
         "java": ">=17",
         "fabric-api": "*",
-        "farmersdelight": "*",
-        "simplecopperpipes": "*"
+        "farmersdelight": "<=2.4.1",
+        "copper_pipe": "<=2.0.3"
     }
 }
